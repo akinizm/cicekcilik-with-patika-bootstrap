@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--CSS style dosyasi eklendi-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Online Cicekcin</title>
+  </head>
+  <body>
+<!--butun sayfalarda ayni gelicek header, navbar baslangic-->
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ps-5">
+    <div class="container-fluid">
+      <a class="navbar-brand text-danger" href="index.html">Senin Cicekcin</a>
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active"aria-current="page"href="#">Ana Sayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"href="urunlerimiz.html">Urunlerimiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"href="hakkimizda.html">Hakkimizda</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!--butun sayfalarda ayni gelicek header, navbar bitis-->
+
+<!--ana sayfa section baslangic-->
+<section class="p-5">
+
+  <!--ana sayfa jumbotron baslangic-->
+  <article class="container-fluid">
+    <h2 class="fs-1 text-center text-danger">Senin Cicekcin!</h2>
+    <p class="fs-5">Online cicekci dukkanimiza hosgeldiniz! Birbirinden farkli ciceklerimizle siz degerli musterilerimizin bir tik uzagindayiz. Urunleri gormek icin <a href="urunlerimiz.html">tiklayiniz.</a></p>
+    <hr>
+  </article>
+  <!--ana sayfa jumbotron bitis-->
+
+  <!--ana sayfa urunlerimiz baslangic-->
+  <article class="row-fluid">
+    <h2 class="text-center text-warning fs-4">Bunlari sakin kacirma! En cok satanlar:</h2>
+    <div class="d-flex justify-content-center" >
+      <ul class="">
+        <li>Gul</li>
+        <li>Karanfil</li>
+        <li>Kasimpati</li>
+        <li>Nergis</li>
+        <li>Zambak</li>
+        <li>Papatya</li>
+      </ul>
+    </div>
+    <div class="d-flex justify-content-center">
+      <button type="button" class="btn btn-primary"><a href="hakkimizda.html" class="text-white fw-1 text-decoration-none">Hakkimizda</a></button>
+    </div>
+  </article>
+<!--ana sayfa urunlerimiz bitis-->
+
+</section>
+<!--ana sayfa section bitis-->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
